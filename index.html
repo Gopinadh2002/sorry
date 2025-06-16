@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Little Something For You, My Love</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fce4ec; /* Light pink background */
+            color: #4a4a4a;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+        h1 {
+            color: #e91e63; /* Deeper pink */
+            font-family: 'Georgia', serif;
+            font-size: 2.8em;
+            margin-bottom: 20px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.05);
+        }
+        h2 {
+            color: #d81b60; /* Slightly lighter pink than h1 */
+            font-family: 'Georgia', serif;
+            font-size: 2em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        h3 {
+            color: #4CAF50; /* Green for song title */
+            font-size: 1.8em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.1em;
+            margin-bottom: 15px;
+        }
+        .apology-text {
+            font-style: italic;
+            margin-bottom: 25px;
+        }
+        .button {
+            background-color: #FF69B4; /* Hot pink */
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .button:hover {
+            background-color: #FF1493; /* Darker hot pink on hover */
+            transform: translateY(-2px);
+        }
+        .song-player-section {
+            display: none; /* Hidden by default */
+            margin-top: 30px;
+            text-align: center;
+        }
+        .song-player-section audio {
+            width: 100%;
+            max-width: 400px;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 5px;
+        }
+        hr {
+            border: none;
+            border-top: 2px dashed #ffc0cb; /* Light pink dashed line */
+            margin: 40px auto;
+            width: 70%;
+        }
+        .signature {
+            margin-top: 40px;
+            font-size: 1.2em;
+            color: #e91e63;
+            font-family: 'Brush Script MT', cursive;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>A Little Something For You, Bujjamma</h1>
+
+        <hr>
+
+        <h2>My Dearest Bujji,</h2>
+
+        <p class="apology-text">
+            I know I messed up, and there's no excuse for my actions. Thinking about what happened has weighed heavily on my heart, and I deeply regret causing you any pain or upset. You mean the world to me, and the last thing I ever want to do is make you feel anything less than cherished and loved.
+        </p>
+        <p>
+            I've been doing a lot of thinking about how I can truly express how sorry I am, and how much I value you.
+        </p>
+
+        <hr>
+
+        <h2>A Melody of My Apology</h2>
+
+        <p>
+            Sometimes, a song can express what words alone cannot. Please listen to this. Every note, every lyric, echoes my sincere regret and my deep love for you.
+        </p>
+
+        <button class="button" onclick="document.getElementById('songPlayerSection').style.display='block'; this.style.display='none';">Click to Play My Apology</button>
+
+        <div id="songPlayerSection" class="song-player-section">
+            <p>  </p>
+            <audio controls>
+                <source src="bujji.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            
+            <p>
+                Bujji sorry anthaku minchi nenu yem chepalenu. Ma ee song nuvu earphones pettukuni vinu ne. Bujji nenu chesindhaniki inkem cheyalenu kani.
+            ee song vinte nuvu mood set avuthav ani chinna hope ne. nuvu naku okasari petav bojjuney mudhu vinamani 
+        poni nuvu bojjuney mundhi vinu ra ee song prasantham ga. na punishment nenu accept chewsthuna chat cheyadhu annav ivaltiki sorry.
+    kani ee okati matram vinu ne. </p>
+        </div>
+
+        <hr>
+
+        <h2>Moving Forward</h2>
+
+        <p>
+            ma idhi anta nenu ippudu kurchuni chesa ne 
+            motham my own le. Antey ma last time chesinavi reuse chesa le. But ma niku sorry chepudham ani nenu sontham ga try chesa ne bujji.
+            <h3>Sorry ra ninu hurt chesinadhuku.</h3>
+            nuvu yeni chepina ne manasu naku telusu ninu badha peta sorry
+        </p>
+
+        <h2><p class="signature">
+            With all my love and deepest apologies,<br>
+            Ne chitti Kannayya
+        </p></h2>
+    </div>
+</body>
+</html>
